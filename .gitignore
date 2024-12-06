@@ -1,0 +1,39 @@
+# package directories
+node_modules/
+jspm_packages/
+
+# build directory
+build/
+.build
+.cache
+.parcel-cache
+.cdk*
+.layers
+
+# npm
+npm-debug.log
+
+# istanbul
+.nyc_output/
+coverage/
+.netrc
+
+out/
+cdk.out/
+
+equipment-test-results.xml
+int-db-test-results.xml
+
+# Jetbrains IDE
+.idea/
+*.iml
+*.jsons.gz
+
+# folder for developer's work data
+_local/
+
+# vi backup files
+*.swp
+*.swo
+
+cdk.context.json

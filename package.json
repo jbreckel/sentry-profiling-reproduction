@@ -1,0 +1,21 @@
+{
+    "name": "sentry-profiling-repro",
+    "version": "0.0.1",
+    "scripts": {
+        "deploy": "cdk deploy --require-approval never --context version=$npm_package_version --context awsStage=dev"
+    },
+    "devDependencies": {
+        "@types/aws-lambda": "^8.10.134",
+        "@types/node": "^20.11.22",
+        "aws-cdk-lib": "^2.171.1",
+        "constructs": "^10.3.0",
+        "esbuild": "^0.24",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "@sentry/aws-serverless": "^8.37.1",
+        "@sentry/profiling-node": "^8.37.1",
+        "@sentry/types": "^8.37.1"
+    }
+}

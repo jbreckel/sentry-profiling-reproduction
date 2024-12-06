@@ -1,0 +1,8 @@
+{
+    "app": "npx ts-node --prefer-ts-exts cdk/cdk-base.ts",
+    "context": {
+        "lambdaEnv": {
+            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
+        }
+    }
+}
